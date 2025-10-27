@@ -3,66 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Перший сайт</title>
-    <style>
-   
-        table.main-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-            table.main-table td {
-                width: 50%;
-                vertical-align: top;
-                border: 1px solid black;
-                padding: 10px;
-            }
-
-      
-        table.weather-table {
-            border-collapse: collapse;
-            width: 60%; 
-            margin: 0 auto; 
-        }
-
-            table.weather-table th,
-            table.weather-table td {
-                border: 1px solid black;
-                padding: 5px;
-                text-align: center; 
-            }
-
- 
-        .weather-section {
-            text-align: center;
-        }
-
-          
-            .weather-section img {
-                max-width: 100%;
-                height: auto;
-                margin-top: 20px;
-            }
-
-        a {
-            display: inline-block;
-            margin-top: 10px;
-            text-decoration: none;
-            color: blue;
-        }
-    </style>
 </head>
 <body>
 
-    <h1>Перший сайт</h1>
+    <h1 align="center">Перший сайт</h1>
 
     <p>
         <b>Хімічна реакція ортофосфорної кислоти:</b><br>
-        <i>P</i><sub>2</sub>O<sub>5</sub> + 3H<sub>2</sub>O &rarr; H<sub>3</sub>PO<sub>4</sub>
+        <i>P</i><sub>2</sub>O<sub>5</sub> + 3H<sub>2</sub>O → H<sub>3</sub>PO<sub>4</sub>
     </p>
 
-    <table class="main-table">
+    <table border="1" width="100%">
         <tr>
-            <td>
+            <td width="50%" valign="top">
                 <h2>Групи</h2>
                 <ul>
                     <li>
@@ -77,7 +30,7 @@
                     <li>
                         Спеціальність КСМ
                         <ul>
-                            <li>Група 2</li>
+                            <li>Група 1</li>
                             <li>Група 2</li>
                             <li>Група 3</li>
                             <li>Група 5</li>
@@ -92,36 +45,36 @@
                 </form>
             </td>
 
-            <td>
-                <div class="weather-section">
-                    <h2>Прогноз погоди</h2>
+            <td width="50%" valign="top" align="center">
+                <h2>Прогноз погоди</h2>
 
-                    <table class="weather-table">
-                        <tr>
-                            <th>Місто</th>
-                            <th>Температура</th>
-                            <th>Стан</th>
-                        </tr>
-                        <tr>
-                            <td>Київ</td>
-                            <td>+15&deg;C</td>
-                            <td>Сонячно</td>
-                        </tr>
-                        <tr>
-                            <td>Львів</td>
-                            <td>+12&deg;C</td>
-                            <td>Дощ</td>
-                        </tr>
-                        <tr>
-                            <td>Одеса</td>
-                            <td>+18&deg;C</td>
-                            <td>Хмарно</td>
-                        </tr>
-                    </table>
+                <table border="1" width="60%">
+                    <tr>
+                        <th>Місто</th>
+                        <th>Температура</th>
+                        <th>Стан</th>
+                    </tr>
+                    <tr>
+                        <td>Київ</td>
+                        <td>+15°C</td>
+                        <td>Сонячно</td>
+                    </tr>
+                    <tr>
+                        <td>Львів</td>
+                        <td>+12°C</td>
+                        <td>Дощ</td>
+                    </tr>
+                    <tr>
+                        <td>Одеса</td>
+                        <td>+18°C</td>
+                        <td>Хмарно</td>
+                    </tr>
+                </table>
 
+                <p>
                     <img src="rain.jpg" alt="Погода" width="200"><br>
                     <a href="link.html">Перейти на іншу сторінку</a>
-                </div>
+                </p>
             </td>
         </tr>
     </table>
